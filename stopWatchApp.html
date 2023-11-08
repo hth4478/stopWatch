@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      누적되는 스톱워치
+    </title>
+  </head>
+  <body>
+    <div style="margin: 100px">
+        <h1 id="cnt" >
+            누적 실행 횟수 : 0 회
+        </h1>
+        <h1 id="totalTime" >
+            누적 실행 시간 : 00:00:00
+        </h1>
+        <h2 id="stopWatch" >
+            00:00:00
+        </h2>
+        <button id="startBtn" onclick="startBtnOnClick()">시작</button>
+        <button id="stopBtn" onclick="stopBtnOnClick()">일시정지</button>
+        <button id="resetBtn" onclick="resetBtnOnClick()">초기화</button>
+    </div>
+    <script src="stopWatchApp.js" type="text/javascript"></script>
+  </body>
+</html>
